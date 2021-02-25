@@ -658,7 +658,6 @@ input[type='checkbox'] {
 .navbar-custom .navbar-brand.logo-image img {
     width: 7.0625rem;
 	height: 2rem;
-	-webkit-backface-visibility: hidden;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -854,6 +853,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 3rem;
 	padding-bottom: 2.875rem;
+	background: url('../images/lm-banner.png') center center no-repeat;
 	background-color: #B8AEA4;
 }
 
@@ -1272,6 +1272,38 @@ input[type='checkbox'] {
 
 
 /**********************/
+/*     Botao Ja    */
+/**********************/
+
+.botao-ja {
+	background-color: #B8AEA4;
+	height: 2.5rem;
+	text-align: center;
+	align-items: center;
+}
+
+.botao-ja:hover {
+	background-color: #847c73;
+	transition: all 0.5s ease;
+}
+
+.botao-ja a {
+	color: #f8f8f8;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************/
 /*     11. Call Me    */
 /**********************/
 .form-1 {
@@ -1604,9 +1636,6 @@ input[type='checkbox'] {
 /*********************/
 /*     15. About     */
 /*********************/
-.counter {
-	padding-bottom: 5.25rem;
-}
 
 .counter .image-container {
 	margin-bottom: 3rem;
@@ -2047,8 +2076,6 @@ a:hover.back-to-top {
 		text-align: left;
 	}
 
-	.counter #counter .cell {
-	}
 	/* end of about */
 
 
@@ -2433,9 +2460,6 @@ a:hover.back-to-top {
 
 
 	/* About */
-	.counter {
-		padding-bottom: 6.125rem;
-	}
 
 	.counter .image-container {
 		margin-right: 1.5rem;
