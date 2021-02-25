@@ -54,15 +54,15 @@ html {
 
 body, p {
 	color: #787976; 
-	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+	font: 300 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
 .p-large {
-	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
+	font: 300 1.125rem/1.625rem "Open Sans", sans-serif;
 }
 
 .p-small {
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 300 0.875rem/1.375rem "Open Sans", sans-serif;
 }
 
 .p-heading {
@@ -79,23 +79,23 @@ body, p {
 }
 
 h1 {
-	color: #484a46;
-	font: 700 2.5rem/3rem "Montserrat", sans-serif;
+	color: #B8AEA4;
+	font: 200 2.5rem/3rem "bw";
 }
 
 h2 {
-	color: #484a46;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	color: #B8AEA4;
+	font: 200 1.75rem/2.125rem "bw";
 }
 
 h3 {
-	color: #484a46;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	color: #B8AEA4;
+	font: 200 2rem/2rem "queenly";
 }
 
 h4 {
-	color: #484a46;
-	font: 700 1.25rem/1.625rem "Montserrat", sans-serif;
+	color: #B8AEA4;
+	font: 200 1.5rem/1.5rem "bw";
 }
 
 h5 {
@@ -109,13 +109,14 @@ h6 {
 }
 
 a {
-	color: #787976;
-	text-decoration: underline;
+	color: #B8AEA4;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #787976;
-	text-decoration: underline;
+	color: #847c73;
+	text-decoration: none;
+	transition: all 0.2s ease;
 }
 
 a.green {
@@ -136,20 +137,20 @@ a.white,
 }
 
 strong {
-	color: #484a46;
+	color: #B8AEA4;
 }
 
 .section-title {
-	color: #14bf98;
-	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
+	color: #B8AEA4;
+	font: 500 0.8125rem/1.125rem "bw";
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #B8AEA4;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #B8AEA4;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -165,9 +166,9 @@ strong {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #B8AEA4;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #B8AEA4;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -807,7 +808,7 @@ input[type='checkbox'] {
 /*     05. Intro     */
 /*********************/
 .basic-1 {
-	padding-top: 6.5rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
@@ -853,7 +854,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 3rem;
 	padding-bottom: 2.875rem;
-	background-color: #A47A64;
+	background-color: #B8AEA4;
 }
 
 .cards-1 .card {
@@ -923,9 +924,8 @@ input[type='checkbox'] {
 /*     07. Services     */
 /************************/
 .cards-2 {
-	padding-top: 6.625rem;	
 	padding-bottom: 1.25rem;	
-	background-color: #fbfbfb;
+	background-color: #f8f8f8;
 }
 
 .cards-2 .section-title {
@@ -934,8 +934,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 h2 {
-	margin-bottom: 3.25rem;
-	text-align: center;
+	text-align: left;
 }
 
 .cards-2 .card {
@@ -1002,7 +1001,7 @@ input[type='checkbox'] {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	background: url('../images/intro-office.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1096,6 +1095,11 @@ input[type='checkbox'] {
 	border-bottom: none;
 }
 
+@font-face {
+	src: url('../fonts/bw-vivant-thin.ttf');
+	font-family: bw;
+  }
+
 .tabs .nav-link {
 	margin-right: 1.625rem;
 	margin-bottom: 0.875rem;
@@ -1103,7 +1107,7 @@ input[type='checkbox'] {
 	border: none;
 	border-radius: 0.25rem;
 	color: #c1cace;
-	font: 700 1.375rem/1.375rem "Montserrat", sans-serif;
+	font: 700 5rem/5rem "bw";
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -1192,7 +1196,7 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	background: url('../images/lm-servicos1.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1601,7 +1605,6 @@ input[type='checkbox'] {
 /*     15. About     */
 /*********************/
 .counter {
-	padding-top: 6.875rem;
 	padding-bottom: 5.25rem;
 }
 
@@ -1742,8 +1745,8 @@ input[type='checkbox'] {
 /*     17. Footer     */
 /**********************/
 .footer {
-	padding-top: 5rem;
-	background-color: #113448;
+	padding-top: 3rem;
+	background-color: #B8AEA4;
 }
 
 .footer .text-container {
@@ -1752,13 +1755,30 @@ input[type='checkbox'] {
 
 .footer h4 {
 	margin-bottom: 0.75rem;
-	color: #fff;
+	color: #f8f8f8;
 }
 
 .footer p,
 .footer ul {
 	font-size: 0.875rem;
 	line-height: 1.375rem;
+	color: #f8f8f8;
+}
+
+.footer .fa-stack-2x {
+	color: #f8f8f8;
+	font-size: 1.2rem;
+}
+
+.footer .fa-stack-2x:hover {
+	color: #E2DFD7;
+	font-size: 1.2rem;
+}
+
+.footer .social-footer {
+	align-items: center;
+	text-align: center;
+	padding-top: 3rem;
 }
 
 
@@ -1766,16 +1786,22 @@ input[type='checkbox'] {
 /*     18. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 1rem;
-	padding-bottom: 0.5rem;
-	background-color: #113448;
+	background-color: #847c73;
 	text-align: center;
+}
+
+.copyright .p-small {
+	padding-top: 0.4rem;
 }
 
 .copyright p,
 .copyright a {
-	color: #dfe5ec;
+	color: #D2CBC0;
 	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #f8f8f8;
 }
 
 
@@ -2113,7 +2139,8 @@ a:hover.back-to-top {
 
 	/* Intro */
 	.basic-1 {
-		padding-top: 6.875rem;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
 	}
 
 	.basic-1 .text-container {

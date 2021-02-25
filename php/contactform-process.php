@@ -25,7 +25,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
+$EmailTo = "paolasantos.assis@gmail.com";
 $Subject = "New message from Aria landing page";
 
 // prepare email body text
@@ -48,10 +48,10 @@ $success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
-   echo "success";
+   echo "Mensagem Enviado com Sucesso!";
 }else{
     if($errorMSG == ""){
-        echo "Something went wrong :(";
+        echo "Algo deu errado :(";
     } else {
         echo $errorMSG;
     }
