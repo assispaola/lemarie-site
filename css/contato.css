@@ -3,6 +3,22 @@
     background-color: #B8AEA4;
 }
 
+/**** INÍCIO ****/
+@media screen and (max-width: 980px) {
+        .container-fluid .texto-2 {
+            padding: 1rem;
+        }
+}
+
+
+
+
+
+
+
+
+
+
 
 /**** SERVIÇOS ****/
 .servicos1 {
@@ -15,10 +31,6 @@
     text-align: justify;
 }
 
-
-@media screen and (max-width: 980px) {
-
-}
 .servicos1 .texto {
     text-align: initial;
 }
