@@ -1,0 +1,211 @@
+/**** NAVBAR ****/
+.nav {
+    background-color: #B8AEA4;
+}
+
+
+/**** SERVIÇOS ****/
+.servicos1 {
+    padding-top: 4rem;
+}
+
+.servicos1 .texto {
+    background-color: #E2DFD7;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+.servicos1 .texto {
+    text-align: initial;
+}
+
+
+.voce-01 .voce {
+    padding-left: 12rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 980px) {
+    .voce-01 .voce {
+        padding: 1rem;
+    }
+}
+
+.empresa {
+    font-weight: 400;
+}
+
+.empresa h2 {
+    padding-top: 4rem;
+}
+
+.empresa img {
+    padding-top: 4rem;
+}
+
+@media screen and (max-width: 980px) {
+    .empresa h2, h3, p {
+        padding-left: 1rem;
+    }
+}
+
+
+
+
+
+/**** SOBRE ****/
+.about-1 {
+    padding-top: 4rem;
+    padding-right: 5rem;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    .about-img {
+        padding-top: 4rem;
+    }
+
+    .about-1 {
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .container .about-2 {
+        padding: 0px;
+        padding-bottom: 1rem;
+    }
+
+    .about-3 {
+        padding: 0px;
+    }
+
+    .about-3 .text-container {
+        text-align: center;
+        padding-right: 3rem;
+    }
+}
+
+.about-3 {
+    padding-top: 3rem;
+}
+
+.about-3 .text-container {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/**** CONTATO ****/
+.formulario {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5%;
+    padding-top: 10rem;
+}
+
+@media screen and (max-width: 980px) {
+    .formulario {
+        padding-top: 3rem;
+    }
+}
+
+#form_orcamento input {
+    display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	width: 100%;
+	padding-top: 0.80rem;
+	padding-bottom: 0.80rem;
+	padding-left: 1.3125rem;
+	border: 1px solid 
+    #E2DFD7;
+	border-radius: 0.25rem;
+	background-color: #fff;
+	color: #847c73;
+	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	transition: all 0.2s;
+	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #847c73;
+    box-shadow: 0 0 10px #D2CBC0;
+}
+
+
+textarea {
+    display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	width: 100%;
+	padding-top: 0.80rem;
+	padding-bottom: 3.80rem;
+	padding-left: 1.3125rem;
+	border: 1px solid 
+    #E2DFD7;
+	border-radius: 0.25rem;
+	background-color: #fff;
+	color: #847c73;
+	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	transition: all 0.2s;
+	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+} 
+
+textarea:focus {
+    outline: none !important;
+    border-color: #847c73;
+    box-shadow: 0 0 10px #D2CBC0;
+}
+
+.btn-preto {
+    display: inline-block;
+	width: 100%;
+	border: none;
+	height: 2.8rem;
+	border-radius: 0.25rem;
+	background-color: #B8AEA4;
+	color: #f8f8f8;
+	cursor: pointer;
+	transition: all 0.3s;
+	letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.btn-preto:hover {
+    color: #f8f8f8;
+    background-color: #847c73;
+}
+
+.list-unstyled {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.list-unstyled a {
+    color: #847c73;
+    font-weight: 600;
+}
+
+.list-unstyled a:hover {
+    color: #B8AEA4;
+}
+
+.list-unstyled li i {
+    padding-right: 10px;
+}
+
+
+

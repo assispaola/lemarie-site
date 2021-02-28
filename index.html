@@ -6,6 +6,7 @@
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="keywords" content="imagem, estilo, imagem pessoal, imagem profissional, consultoria, consultoria de cmagem, marca pessoal, carreira, comunicação">
     <meta name="author" content="Inovatik">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -28,93 +29,67 @@
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/lm-favicon.ico">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-    
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
-
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">INÍCIO<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">SERVIÇOS</a>
-                </li>
 
 
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SOBRE</a>
-                    <!-- NOT USED
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div> -->
-                </li>
-                <!-- end of dropdown menu -->
 
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTATO</a>
-                </li>
-            </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.facebook.com/consultoriadecores/?ref=py_c" target="_blank" >
-                        <span class="square"></span>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
+
+<body>
+    <!-- Menu  -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="">
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">INÍCIO</a></li>
+                    <li><a href="servicos.html">SERVIÇOS</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                
+
+                <!-- Menu Ícones Redes Sociais -->
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="https://www.facebook.com/consultoriadecores/?ref=py_c" target="_blank" >
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
                 </span>
                 <span class="fa-stack">
                     <a href="https://www.instagram.com/lemarie.carlaconsultoria/" target="_blank">
-                        <span class="square"></span>
                         <i class="fab fa-instagram fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
                     <a href="https://www.linkedin.com/in/carla-lamin-162bb6197/" target="_blank">
-                        <span class="square"></span>
                         <i class="fab fa-linkedin-in fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="https://br.pinterest.com/calamincl/" target="_blank">
-                        <span class="square"></span>
-                        <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                     <a href="https://br.pinterest.com/calamincl/" target="_blank">
+                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
                     </a>
                 </span>
+                </span> <!-- end Menu Ícones Redes Sociais-->
+            </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
             </span>
         </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
+    </nav> <!-- end Menu-->
+
+
 
 
     <!-- Header -->
@@ -123,460 +98,97 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- Início - Parte 1 -->
+        <div id="header" class="basic-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
                         <div class="text-container">
+    
+                            <h2>Imagem  e Estilo</h2>
+                            <p>A consultoria é um serviço que vai além da roupa, não é <br>
+                                sobre roupa, é sobre você, é sobre trazer à tona a sua <br>
+                                relevância, papel e posicionamento no mundo.</p>
+                            <p>Tem por objetivo potencializar questões referentes a <br>
+                                apresentação pessoal, comunicação, postura, etiqueta, <br> 
+                                autoconhecimento, essência e comportamento.</p>
                             
-                            <!-- NOT USED - edit: assispaola
-                            <h1>BUSINESS <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span></h1>
-                            <p class="p-heading p-large">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
-                            <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a> -->
-                        </div>
+                        </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+        </div> <!-- end of basic-1 -->
+        <!-- end Início - Parte 1 -->
 
 
-    <!-- Intro -->
-    <div id="header" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <div class="section-title">Le Marie</div>
-                        <h2>Imagem e Estilo</h2>
-                        <p>A consultoria é um serviço que vai além da roupa, não é
-                            sobre roupa, é sobre você, é sobre trazer à tona a sua
-                            relevância, papel e posicionamento no mundo.</p>
-                        <p>Tem por objetivo potencializar questões referentes a apresentação
-                            pessoal, comunicação, postura, etiqueta, autoconhecimento, essência
-                            e comportamento.</p>
-                        <p class="testimonial-text">"Uma boa impressão tem um valor único; abrir as portas."</p>
-                        <div class="testimonial-author">Carla Lamin</div>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/intro-office2.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of intro -->
-    
 
 
-    <!-- Description -->
+            <!-- Iício - Parte 2 -->
     <div class="cards-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                        <!-- NOT USED
-                        <span class="fa-stack">
-                            <span class="hexagon"></span>
-                            <i class="fas fa-binoculars fa-stack-1x"></i>
-                        </span> -->
-                        <div class="card-body">
-                            <p>Invista em sua imagem, na sua marca pessoal e carreira. 
-                                Uma imagem coerente e com a comunicação de acordo
-                                com os objetivos traçados
-                                é o primeiro passo para a diferenciação no mercado.</p>
+                <div class="col-lg-6 card-body">
+                    <p>
+                        Invista em sua imagem, na sua marca pessoal e carreira. <br>
+                        Uma imagem coerente e com a comunicação de acordo <br>
+                        com os objetivos traçados é o primeiro passo para a <br> 
+                        diferenciação no mercado.
+                     </p>
                                 <br>
                                 <h4>Está preparado?</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-                    
-                    
-                    <!-- NOT USED Card
-                    <div class="card">
-                        <span class="fa-stack">
-                            <span class="hexagon"></span>
-                            <i class="fas fa-list-alt fa-stack-1x"></i>
-                        </span>
-                        <div class="card-body">
-                            <h4 class="card-title">Development Planning</h4>
-                            <p>After completing the environmental analysis the next stage is to design and  plan your development strategy</p>
-                        </div>
-                    </div> -->
-                    <!-- end of card -->
-
-                    <!-- NOT USED Card 
-                    <div class="card">
-                        <span class="fa-stack">
-                            <span class="hexagon"></span>
-                            <i class="fas fa-chart-pie fa-stack-1x"></i>
-                        </span>
-                        <div class="card-body">
-                            <h4 class="card-title">Execution & Evaluation</h4>
-                            <p>In this phase you will focus on executing the actions plan and evaluating the results after each marketing campaign</p>
-                        </div>
-                    </div> -->
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-
-
+                </div> <!-- end of card-body 1 -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of cards-1 -->
-    <!-- end of description -->
+    <!-- end Início - Parte 2 -->
 
 
-    
 
-    <!-- Details 1 -->
-	<div id="details" class="accordion">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
+
+    <!-- Iício - Parte 3 -->
+    <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-lg-4 p-0">
+                    <img src="./images/lm-intro3.png" class="img-fluid" alt="">
+
+                </div> <!-- end of col -->
             
-            <!-- Accordion -->
-            <div class="accordion-container" id="accordionOne">
-                <div class="item">
-                    <div id="headingOne">
-                        <div class="accordion-body">
-                            Cada imagem carrega uma história, uma
-                        soma de experiência, gostos, vivências
-                        e conta para o mundo quem somos.
-                        Você tem poucos segundos para formar
-                        uma percepção no outro e isso
-                        contará muito para as suas conquistas
-                        pessoais e profissionais.
-                        <a href="#services"><button>SERVIÇOS</button></a>
-                        </div>
-                    </div>
-                    
-                </div> <!-- end of item -->
-            
-            </div> <!-- end of accordion-container -->
-            <!-- end of accordion -->
-
-		</div> <!-- end of area-2 -->
-    </div> <!-- end of accordion -->
-    <!-- end of details 1 -->
-
-
-    <!-- Services -->
-	<div id="services">
-        <div class="container no-gutters">
-            <div class="row d-flex justify-content-center">
-              <div class="col-sm-6">
-                <h1>SERVIÇOS</h1>
-                   <p>
-                       Vivemos em um mundo cada vez mais competitivo onde a imagem ocupa um papel primordial. <br>
-                       Comunicar-se através do vestir não é mais uma futilidade, é necessidade. No mundo corporativo a imagem e reputação
-                       contam muito em termos de projeção profissional, por isso uma imagem adequada que transmite credibilidade, confiabilidade, cordialidade e coerência com relação a seus ideais pode te ajudar e muito nesse processo.
-                   </p>
-              </div>
-            </div>
-          </div> <!-- end container services -->
-       
     
-    
-            <div class="row no-gutters">
-                <div class="container no-gutters justify-content-center">
-                <div class="col-lg-12 ">
-                    <!-- CARDS -->
-                    <div class="card-deck justify-content-center">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/services-1.jpg" alt="Imagem de capa do card">
-                            <div class="card-body">
-                              <h3>Você</h3>
-                              <br>
-                              <p class="card-text">
-                                  - Design da Imagem <br>
-                                  - Consultoria de Cores Técnica Multifatorial® <br>
-                                  - Colorimetria Capilar e Estrutura de Corte
-                              </p>
-                              <p class="card-text"><small class="text-muted"> <i> on-line ou presencial</i></small></p>
-                            </div>
-                          </div>
-
-                          <div class="card">
-                            <img class="card-img-top" src="./images/services-2.jpg" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h3>Empresa</h3>
-                                <br>
-                                 <p class="card-text">
-                                  - Consultoria Corporativa <br>
-                                  - Gestão de Imagem Profissional <br>
-                                  - Dress Code e Uniforme Corporativo
-                              </p>
-                              <p class="card-text"><small class="text-muted"><i> on-line ou presencial</i></small></p>
-                            </div>
-                          </div>
-
-                          <div class="card">
-                            <img class="card-img-top" src="./images/services-3.jpg" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h3>Workshop</h3>
-                                <br>
-                                 <p class="card-text">
-                                  - Customizado conforme a demanda da corporação <br>
-                              </p>
-                              <p class="card-text"><small class="text-muted"><i>presencial</i></small></p>
-                            </div>
-                          </div>
-
-                          
-                    </div>
-            </div> <!-- end of row -->
-        </div>
- 
-    </div> <!-- end of cards-2 --><!-- end of services -->
-    
-
-
-
-
-
-    <!-- Testimonials -->
-    <div class="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>DEPOIMENTOS</h2>
-                    <p class="p-heading">Nossos clientes são nossos parceiros e não podemos imaginar um futuro melhor para nossa empresa sem ajudá-los a alcançar seus objetivos.</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">The guys from Aria helped with getting my business off the ground and turning into a profitable company.</div>
-                                            <div class="testimonial-author">Cliente 1</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
         
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year. </div>
-                                            <div class="testimonial-author">Cliente 2</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.</div>
-                                            <div class="testimonial-author">Cliente 3</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.</div>
-                                            <div class="testimonial-author">Cliente 4</div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">I recommend Aria to every business owner or growth leader that wants to take his company to the next level.</div>
-                                            <div class="testimonial-author">Cliente 5</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
-                                        <div class="card-body">
-                                            <div class="testimonial-text">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</div>
-                                            <div class="testimonial-author">Cliente 6</div>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-                            
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of sliedr-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider -->
-    <!-- end of testimonials -->
-
-
-
-
-    <!-- About -->
-    <div id="about" class="counter">
-       
-            <div class="row no-gutters">
-                <div class="col-lg-5 col-xl-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/lm-sobre1.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7 col-xl-6">
-                    <div class="text-container">
-                        </div>
-                        
-                        <p>Carla Lamin - Especialista em Estratégia de Imagem Pessoal</p>
-                        <p>
-                            Sou especialista em competências comunicacionais não verbais, ajudo pessoas que precisam
-                            de uma comunicação específica e objetiva de imagem a alcançarem um resultado pleno e 
-                            satisfatório, que impactem em diversos setores da sua vida, principalmente o profissional.
-                        </p>
-                        <br>
-                        <p>
-                            Em um mundo onde cada vez mais as interações humanas acontecem de forma rápida e objetiva,
-                            a nossa imagem embala e direciona o olhar do outro.
-                        </p>
-                        
-
-
-                    </div> <!-- end of text-container -->      
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-            <div class="botao-ja col-lg-12 d-flex justify-content-center">
-                            <a href="https://whats.link/lemarie" target="_blank">QUERO COMEÇAR AGORA!</a>
-                        </div>
+                <div class="col-lg-8 texto-2">
+                    <p>
+                    Cada imagem carrega uma história, 
+                    uma soma de experiências, <br> 
+                    gostos, vivências 
+                    e conta para o mundo quem somos. <br>
+                    Você tem poucos segundos para 
+                    formar uma percepção no outro <br>
+                    e isso 
+                    contará muito para as suas conquistas 
+                    pessoais e profissionais.
+                    </p>
+                    <a href="servicos.html">
+                    <button type="button" class="btn btn-secondary btn-sm">SERVIÇOS</button>
+                    </a>
+                </div> 
+            </div>   
+        </div> <!-- end container-fluid -->
 
 
 
 
 
-            <!-- About 2 -->
-            <div class="row no-gutters">
-               
-                <div class="col-lg-5 col-xl-6">
-                    <div class="text-container">
-
-                        <p>Carla Lamin - Especialista em Estratégia de Imagem Pessoal</p>
-                        <p>
-                            Sou especialista em competências comunicacionais não verbais, ajudo pessoas que precisam
-                            de uma comunicação específica e objetiva de imagem a alcançarem um resultado pleno e 
-                            satisfatório, que impactem em diversos setores da sua vida, principalmente o profissional.
-                        </p>
-                        <br>
-                        <p>
-                            Em um mundo onde cada vez mais as interações humanas acontecem de forma rápida e objetiva,
-                            a nossa imagem embala e direciona o olhar do outro.
-                        </p>
-    
-
-
-                    </div> <!-- end of text-container -->      
-                </div> <!-- end of col --> 
-                <div class="col-lg-7 col-xl-6 no-gutters">
-                    <div class="image-container p-0">
-                        <img class="img-fluid" src="images/lm-sobre2.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-
-
-            </div> <!-- end of row -->
-
-
-
-        
-    </div> <!-- end of counter -->
-    <!-- end of about -->
-
-
-    <!-- Contact -->
-    <div id="contact" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h3>Contato</h3>
-                        <p>Sinta-se a vontade para nos enviar uma mensagem, estamos à disposição e responderemos o mais breve possível.</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>Rio de Janeiro - Brasil</li>
-                            <li><i class="fas fa-phone"></i>Cel/Whatsapp:<a href="https://whats.link/lemarie" target="_blank"> (17) 99677-3537</a></li>
-                            <li><i class="fas fa-envelope"></i>Email:<a href="mailto:carlalamin@lemarieimagem.com"> carlalamin@lemarieimagem.com</a></li>
-                        </ul>
-                        
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Nome</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Sua mensagem</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">ENVIAR MENSAGEM</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of contact -->
-
-
-    <!-- Footer -->
+          <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -614,7 +226,6 @@
                                 </a>
                             </span>
                         </span>
-                    
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -633,18 +244,62 @@
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
-    
-    	
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+<!-- Scripts -->
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    <script>
+        $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+    </script>
+ 
+ <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+ <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+ <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+ <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+ <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+ <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+ <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+ <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+ <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+ <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
-</html>
+    
+    
+   
+
