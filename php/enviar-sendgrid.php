@@ -5,8 +5,10 @@ require("./sendgrid-php/sendgrid-php.php");
 $email_site = "paolasantos.assis@gmail.com";
 $nome_site = "Le Marie - Imagem e Estilo";
 
-$email_user = $_POST["email"];
 $nome_user = $_POST["nome"];
+$email_user = $_POST["email"];
+$telefone_user = $_POST['telefone'];
+$mensagem_user = $_POST['mensagem'];
 
 $body_content = "";
 foreach( $_POST as $field => $value) {
@@ -16,16 +18,16 @@ foreach( $_POST as $field => $value) {
   }
 }
 
-$email = new \SendGrid\Mail\Mail(); 
-$email->setFrom($email_site, $nome_site);
-$email->addTo($email_site, $nome_site);
+$email = new \SendGrid\Mail\Mail(null, "paolasantos.assis@gmail.com", "paolasantos.assis@gmail.com"); 
+$email->setFrom("assispaola.dev@gmail.com", "Le Marie - Imagem e Estilo");
+$email->addTo("paolasantos.assis@gmail.com", "Le Marie - Imagem e Estilo");
 
 $email->setReplyTo($email_user, $nome_user);
 
 $email->setSubject("Formulário Le Marie");
-$email->addContent("text/plain", $body_content);
+$email->addContent("text/html", "Olá! <br><br>Nova mensagem de: <br><br>Nome: $nome_user <br>Email: $email_user <br>Telefone: $telefone_user <br>Mensagem: $mensagem_user");
 
-$sendgrid = new \SendGrid("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");
+$sendgrid = new \SendGrid('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');
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";

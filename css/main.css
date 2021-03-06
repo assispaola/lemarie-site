@@ -1,10 +1,23 @@
 /**** NAVBAR ****/
-.nav {
-    background-color: #B8AEA4;
-}
+
+
+
 
 /**** INÍCIO ****/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
+
+    body, p {
+        font-size: 1rem;
+    }
+
+    p, h1, h2, h3, h4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .slider h2 {
+        font-size: 2.4rem;
+    }
         .container-fluid .texto-2 {
             padding: 1rem;
         }
@@ -33,9 +46,10 @@
     padding-bottom: 2rem;
     padding-top: 3rem;
     font-weight: 400;
+    font-size: 1rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
     .voce-01 .voce {
         padding: 1rem;
     }
@@ -53,7 +67,7 @@
     padding-top: 4rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
     .empresa h2, h3, p {
         padding-left: 1rem;
     }
@@ -72,7 +86,15 @@
     text-align: center;
 }
 
-@media screen and (max-width: 980px) {
+.about-3 {
+    padding-top: 2rem;
+    padding-right: 5rem;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
     .about-img {
         padding-top: 4rem;
     }
@@ -89,6 +111,7 @@
 
     .about-3 {
         padding: 0px;
+        padding-top: 3rem;
     }
 
     .about-3 .text-container {
@@ -97,9 +120,6 @@
     }
 }
 
-.about-3 {
-    padding-top: 3rem;
-}
 
 .about-3 .text-container {
     padding-left: 3rem;
@@ -121,7 +141,7 @@
     padding-top: 10rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
     .formulario {
         padding-top: 3rem;
     }
