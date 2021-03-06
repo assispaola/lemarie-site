@@ -9,7 +9,6 @@
     text-align: center;
     z-index: 10000;
     background-color: transparent;
-
 }
 
 .nav div.logo {
@@ -54,7 +53,7 @@
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #f8f8f8;
+    color: #B8AEA4;
     line-height: 65px;
     font-family: 'Mulish', sans-serif;
     font-size: 0.9rem;
@@ -67,7 +66,7 @@
 }
 
 .social-icons i {
-    color: #f8f8f8;
+    color: #B8AEA4;
     font-size: 0.8rem;
 }
 
@@ -90,6 +89,19 @@
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+}
+
+.affix {
+    background-color: #B8AEA4;
+    color: #f8f8f8;
+}
+
+.affix div.main_list ul li a {
+    color: #f8f8f8;
+}
+
+.affix div.main_list i {
+    color: #f8f8f8;
 }
 
 
