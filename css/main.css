@@ -59,6 +59,10 @@
     font-weight: 400;
 }
 
+.empresa p {
+    padding-bottom: 1rem;
+}
+
 .empresa h2 {
     padding-top: 4rem;
 }

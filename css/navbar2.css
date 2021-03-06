@@ -149,10 +149,20 @@
         width: 100%;
         font-size: 1.5rem;
         padding: 20px;
+        color: #f8f8f8;
     }
     .nav div.media_button {
         display: block;
     }
+
+    .nav {
+        background-color: #B8AEA4;
+    }
+    
+    .nav div.main_list i {
+        color: #f8f8f8;
+    }
+    
 }
 
 
