@@ -28,17 +28,37 @@
 /**** SERVIÇOS ****/
 .servicos1 {
     padding-top: 4rem;
+    
+}
+
+.servicos1 h1 {
+    padding-top: 1rem;
+    font-size: 6rem;
 }
 
 .servicos1 .texto {
     background-color: #E2DFD7;
     justify-content: center;
     text-align: justify;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-.servicos1 .texto {
-    text-align: initial;
+@media screen and (max-width: 768px) {
+
+    .servicos1 h1 {
+        font-size: 3rem;
+    }
+
+    .servicos1 .texto {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: initial;
+    }
 }
+
+
+
 
 
 .voce-01 .voce {
@@ -92,10 +112,13 @@
 
 .about-3 {
     padding-top: 2rem;
-    padding-right: 5rem;
     align-items: center;
-    margin: auto;
     text-align: center;
+}
+
+.about-3 .text-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -120,16 +143,11 @@
 
     .about-3 .text-container {
         text-align: center;
-        padding-right: 3rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
     }
 }
 
-
-.about-3 .text-container {
-    padding-left: 3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-}
 
 
 
@@ -245,5 +263,8 @@ textarea:focus {
     padding-top: 2rem;
 }
 
+.divisao hr {
+    font-size: 20px;
+}
 
 
